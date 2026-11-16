@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="68" id="KGk-i7-Jjw" customClass="PaymentTableCell" customModule="Medl" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="398" height="68"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="398" height="68"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5IH-CU-aFW">
+                        <rect key="frame" x="0.0" y="8" width="398" height="54"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tylenol" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kEZ-7D-fCJ">
+                                <rect key="frame" x="8" y="8" width="250" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="2ed-oA-fgm"/>
+                                    <constraint firstAttribute="height" constant="40" id="abE-ou-s1K"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$12999.00" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MF6-1u-CKZ">
+                                <rect key="frame" x="286" y="15.5" width="77" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="25" id="jAP-Zt-3t2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cNA-bv-nyt">
+                                <rect key="frame" x="371" y="15" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="24" id="Nfa-5n-7vm"/>
+                                    <constraint firstAttribute="width" constant="24" id="vg8-E3-FuN"/>
+                                </constraints>
+                                <state key="normal" image="GREEN_UNCHECK"/>
+                                <state key="selected" image="GreenRadioButtonActive"/>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92156862745098034" green="0.92156862745098034" blue="0.92156862745098034" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="kEZ-7D-fCJ" secondAttribute="bottom" constant="6" id="HMj-Ol-q5o"/>
+                            <constraint firstAttribute="trailing" secondItem="cNA-bv-nyt" secondAttribute="trailing" constant="3" id="chT-aU-QkZ"/>
+                            <constraint firstItem="cNA-bv-nyt" firstAttribute="centerY" secondItem="5IH-CU-aFW" secondAttribute="centerY" id="dhb-N6-DOW"/>
+                            <constraint firstItem="cNA-bv-nyt" firstAttribute="leading" secondItem="MF6-1u-CKZ" secondAttribute="trailing" constant="8" id="pZj-F9-4gF"/>
+                            <constraint firstItem="kEZ-7D-fCJ" firstAttribute="top" secondItem="5IH-CU-aFW" secondAttribute="top" constant="8" id="rcv-mo-3mV"/>
+                            <constraint firstItem="MF6-1u-CKZ" firstAttribute="centerY" secondItem="kEZ-7D-fCJ" secondAttribute="centerY" id="wdT-hR-2Cv"/>
+                            <constraint firstItem="kEZ-7D-fCJ" firstAttribute="leading" secondItem="5IH-CU-aFW" secondAttribute="leading" constant="8" id="xyP-bI-Eb5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="5IH-CU-aFW" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="1dO-X5-oe5"/>
+                    <constraint firstItem="5IH-CU-aFW" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="8A2-OW-y9h"/>
+                    <constraint firstAttribute="trailing" secondItem="5IH-CU-aFW" secondAttribute="trailing" id="Gnv-cv-XCo"/>
+                    <constraint firstAttribute="bottom" secondItem="5IH-CU-aFW" secondAttribute="bottom" constant="6" id="ipQ-nM-n0v"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btn_check" destination="cNA-bv-nyt" id="3dg-69-VGA"/>
+                <outlet property="price" destination="MF6-1u-CKZ" id="BZP-sw-nhX"/>
+                <outlet property="prscName" destination="kEZ-7D-fCJ" id="Da8-q3-GW7"/>
+            </connections>
+            <point key="canvasLocation" x="131.8840579710145" y="161.38392857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="GREEN_UNCHECK" width="23" height="23"/>
+        <image name="GreenRadioButtonActive" width="25" height="25"/>
+    </resources>
+</document>

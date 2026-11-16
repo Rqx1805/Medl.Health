@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginNew" customModule="Medl" customModuleProvider="target">
+            <connections>
+                <outlet property="firstUser" destination="KtC-zr-bgC" id="tOi-Qy-yOd"/>
+                <outlet property="loginUser" destination="6Jc-4e-FeE" id="AgZ-Gv-Lwp"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MedalIcon" translatesAutoresizingMaskIntoConstraints="NO" id="nCW-N5-JfY">
+                    <rect key="frame" x="132" y="244" width="150" height="120"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="150" id="LY8-AH-kx7"/>
+                        <constraint firstAttribute="height" constant="120" id="aBZ-Xu-6p1"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtC-zr-bgC" customClass="MyButton" customModule="Medl" customModuleProvider="target">
+                    <rect key="frame" x="52" y="404" width="310" height="60"/>
+                    <color key="backgroundColor" red="0.32549019607843138" green="0.67450980392156867" blue="0.56470588235294117" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="U2h-uW-h3t"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                    <state key="normal" title="FIRST TIME USER">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="firstUser_action:" destination="-1" eventType="touchUpInside" id="4Ch-mj-13f"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jc-4e-FeE" customClass="MyButton" customModule="Medl" customModuleProvider="target">
+                    <rect key="frame" x="52" y="489" width="310" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="UtI-Jo-GD0"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                    <state key="normal" title="LOGIN">
+                        <color key="titleColor" red="0.0039215686269999999" green="0.0" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="loginUser_Action:" destination="-1" eventType="touchUpInside" id="9Jw-78-xH9"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="KtC-zr-bgC" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8oL-us-p2l"/>
+                <constraint firstItem="KtC-zr-bgC" firstAttribute="top" secondItem="nCW-N5-JfY" secondAttribute="bottom" constant="40" id="A53-sl-tsw"/>
+                <constraint firstItem="KtC-zr-bgC" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="52" id="KB8-E6-85y"/>
+                <constraint firstItem="nCW-N5-JfY" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="200" id="U7n-WS-1cu"/>
+                <constraint firstItem="6Jc-4e-FeE" firstAttribute="width" secondItem="KtC-zr-bgC" secondAttribute="width" id="UtP-Lw-mDl"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="6Jc-4e-FeE" secondAttribute="trailing" constant="52" id="fc8-Fi-b4O"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="KtC-zr-bgC" secondAttribute="trailing" constant="52" id="qFS-Vr-0sd"/>
+                <constraint firstItem="nCW-N5-JfY" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="saQ-5C-5ah"/>
+                <constraint firstItem="6Jc-4e-FeE" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="52" id="xnA-on-hAx"/>
+                <constraint firstItem="6Jc-4e-FeE" firstAttribute="top" secondItem="KtC-zr-bgC" secondAttribute="bottom" constant="25" id="xtq-Lu-cFy"/>
+                <constraint firstItem="6Jc-4e-FeE" firstAttribute="centerX" secondItem="KtC-zr-bgC" secondAttribute="centerX" id="yzn-ct-ptk"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="133" y="153"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="MedalIcon" width="145" height="69"/>
+    </resources>
+</document>

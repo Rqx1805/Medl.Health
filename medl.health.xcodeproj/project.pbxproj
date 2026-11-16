@@ -1,0 +1,1209 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C6E5C3023F422AB005EC6BB /* DashBoard_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C6E5C2F23F422AB005EC6BB /* DashBoard_iPad.swift */; };
+		0E0172C7236957A400BE41BB /* EditAccount_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0172C5236957A400BE41BB /* EditAccount_iPad.swift */; };
+		0E0172C8236957A400BE41BB /* EditAccount_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0172C6236957A400BE41BB /* EditAccount_iPad.xib */; };
+		0E0ABF6623913945004F2DC6 /* ChangePasswordVC_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0ABF6423913945004F2DC6 /* ChangePasswordVC_iPad.swift */; };
+		0E0ABF6723913945004F2DC6 /* ChangePasswordVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E0ABF6523913945004F2DC6 /* ChangePasswordVC_iPad.xib */; };
+		0E184E0C2398C299009B7BEE /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E184E0A2398C299009B7BEE /* ForgotPasswordVC.swift */; };
+		0E184E0D2398C299009B7BEE /* ForgotPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E184E0B2398C299009B7BEE /* ForgotPasswordVC.xib */; };
+		0E184E102398C486009B7BEE /* NewPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E184E0E2398C486009B7BEE /* NewPasswordVC.swift */; };
+		0E184E112398C486009B7BEE /* NewPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E184E0F2398C486009B7BEE /* NewPasswordVC.xib */; };
+		0E184E152398C7C2009B7BEE /* MenuCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E184E132398C7C2009B7BEE /* MenuCollectionCell.swift */; };
+		0E184E162398C7C2009B7BEE /* MenuCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E184E142398C7C2009B7BEE /* MenuCollectionCell.xib */; };
+		0E184E192398E160009B7BEE /* InProgressTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E184E172398E160009B7BEE /* InProgressTableCell.swift */; };
+		0E184E1A2398E160009B7BEE /* InProgressTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E184E182398E160009B7BEE /* InProgressTableCell.xib */; };
+		0E184E1D2398E1B0009B7BEE /* ExpireTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E184E1B2398E1B0009B7BEE /* ExpireTableCell.swift */; };
+		0E184E1E2398E1B0009B7BEE /* ExpireTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E184E1C2398E1B0009B7BEE /* ExpireTableCell.xib */; };
+		0E1B92EA2397C32D00367CB1 /* InProcess_iPadCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E1B92E82397C32D00367CB1 /* InProcess_iPadCollectionCell.swift */; };
+		0E1B92EB2397C32D00367CB1 /* InProcess_iPadCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E1B92E92397C32D00367CB1 /* InProcess_iPadCollectionCell.xib */; };
+		0E50887323E95952002D8C42 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E50887123E95952002D8C42 /* ResetPasswordVC.swift */; };
+		0E50887423E95952002D8C42 /* ResetPasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E50887223E95952002D8C42 /* ResetPasswordVC.xib */; };
+		0E5375102361C42F008ACD44 /* DashBoard_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E53750E2361C42F008ACD44 /* DashBoard_iPad.xib */; };
+		0E5375132361D1EA008ACD44 /* Active_iPadCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5375112361D1EA008ACD44 /* Active_iPadCollectionCell.swift */; };
+		0E5375142361D1EA008ACD44 /* Active_iPadCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5375122361D1EA008ACD44 /* Active_iPadCollectionCell.xib */; };
+		0E5375172361D4BE008ACD44 /* Pending_iPadCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5375152361D4BE008ACD44 /* Pending_iPadCollectionCell.swift */; };
+		0E5375182361D4BE008ACD44 /* Pending_iPadCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E5375162361D4BE008ACD44 /* Pending_iPadCollectionCell.xib */; };
+		0E53751B2361D71D008ACD44 /* ThankYou_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E5375192361D71D008ACD44 /* ThankYou_iPad.swift */; };
+		0E53751C2361D71D008ACD44 /* ThankYou_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E53751A2361D71D008ACD44 /* ThankYou_iPad.xib */; };
+		0E53751F2361DB94008ACD44 /* EnterYourAddress_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E53751D2361DB94008ACD44 /* EnterYourAddress_iPad.swift */; };
+		0E5375202361DB94008ACD44 /* EnterYourAddress_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E53751E2361DB94008ACD44 /* EnterYourAddress_iPad.xib */; };
+		0E54083923D08F870025BD84 /* DPPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E54083823D08F870025BD84 /* DPPickerManager.swift */; };
+		0E6F7276236189B100CFF875 /* CardTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F7274236189B100CFF875 /* CardTableCell.swift */; };
+		0E6F7277236189B100CFF875 /* CardTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F7275236189B100CFF875 /* CardTableCell.xib */; };
+		0E6F727E2361998900CFF875 /* AddProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F727C2361998900CFF875 /* AddProfileVC.swift */; };
+		0E6F727F2361998900CFF875 /* AddProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F727D2361998900CFF875 /* AddProfileVC.xib */; };
+		0E6F728E2361B4CF00CFF875 /* ThankYouVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E6F728C2361B4CF00CFF875 /* ThankYouVC.swift */; };
+		0E6F728F2361B4CF00CFF875 /* ThankYouVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E6F728D2361B4CF00CFF875 /* ThankYouVC.xib */; };
+		0E933816238D31A700410E92 /* SignUpVC_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E933814238D31A700410E92 /* SignUpVC_iPad.swift */; };
+		0E933817238D31A700410E92 /* SignUpVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E933815238D31A700410E92 /* SignUpVC_iPad.xib */; };
+		0E93381A238D356600410E92 /* LostPINVC_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E933818238D356600410E92 /* LostPINVC_iPad.swift */; };
+		0E93381B238D356600410E92 /* LostPINVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E933819238D356600410E92 /* LostPINVC_iPad.xib */; };
+		0E933822238D382F00410E92 /* EnterNewPasswordVC_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E933820238D382F00410E92 /* EnterNewPasswordVC_iPad.swift */; };
+		0E933823238D382F00410E92 /* EnterNewPasswordVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E933821238D382F00410E92 /* EnterNewPasswordVC_iPad.xib */; };
+		0E933826238D4B2800410E92 /* ExpiredCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E933824238D4B2800410E92 /* ExpiredCollectionCell.swift */; };
+		0E933827238D4B2800410E92 /* ExpiredCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E933825238D4B2800410E92 /* ExpiredCollectionCell.xib */; };
+		0E93382E238D572700410E92 /* NotificationVC_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E93382C238D572700410E92 /* NotificationVC_iPad.swift */; };
+		0E93382F238D572700410E92 /* NotificationVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E93382D238D572700410E92 /* NotificationVC_iPad.xib */; };
+		0E933832238D588B00410E92 /* NotificationTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E933830238D588B00410E92 /* NotificationTableCell.swift */; };
+		0E933833238D588B00410E92 /* NotificationTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E933831238D588B00410E92 /* NotificationTableCell.xib */; };
+		0E933836238D59DB00410E92 /* SupportVC_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E933834238D59DB00410E92 /* SupportVC_iPad.swift */; };
+		0E933837238D59DB00410E92 /* SupportVC_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E933835238D59DB00410E92 /* SupportVC_iPad.xib */; };
+		0EA185D7238FDADA00185E59 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA185D5238FDADA00185E59 /* SignUpVC.swift */; };
+		0EA185D8238FDADA00185E59 /* SignUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0EA185D6238FDADA00185E59 /* SignUpVC.xib */; };
+		0EA185DA238FEA1E00185E59 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EA185D9238FEA1D00185E59 /* DataManager.swift */; };
+		0ED2B5BF23601591002E0E5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5BE23601591002E0E5D /* AppDelegate.swift */; };
+		0ED2B5C423601591002E0E5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5C223601591002E0E5D /* Main.storyboard */; };
+		0ED2B5C623601593002E0E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5C523601593002E0E5D /* Assets.xcassets */; };
+		0ED2B5C923601593002E0E5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5C723601593002E0E5D /* LaunchScreen.storyboard */; };
+		0ED2B5D72360186A002E0E5D /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5D22360186A002E0E5D /* LoginVC.swift */; };
+		0ED2B5D82360186A002E0E5D /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5D32360186A002E0E5D /* LoginVC.xib */; };
+		0ED2B5D92360186A002E0E5D /* LoginVC_iPod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5D52360186A002E0E5D /* LoginVC_iPod.swift */; };
+		0ED2B5DA2360186A002E0E5D /* LoginVC_iPod.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5D62360186A002E0E5D /* LoginVC_iPod.xib */; };
+		0ED2B5FE2360187B002E0E5D /* lato.medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5DC2360187A002E0E5D /* lato.medium.ttf */; };
+		0ED2B5FF2360187B002E0E5D /* lato.thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5DD2360187A002E0E5D /* lato.thin.ttf */; };
+		0ED2B6002360187B002E0E5D /* lato.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5DE2360187A002E0E5D /* lato.bold.ttf */; };
+		0ED2B6012360187B002E0E5D /* lato.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B5DF2360187A002E0E5D /* lato.regular.ttf */; };
+		0ED2B6032360187B002E0E5D /* HRToast+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5E22360187A002E0E5D /* HRToast+UIView.swift */; };
+		0ED2B6042360187B002E0E5D /* MyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5E32360187A002E0E5D /* MyView.swift */; };
+		0ED2B6052360187B002E0E5D /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5E42360187A002E0E5D /* FloatRatingView.swift */; };
+		0ED2B6062360187B002E0E5D /* ValidationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5E52360187A002E0E5D /* ValidationClass.swift */; };
+		0ED2B6072360187B002E0E5D /* SCLAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5E62360187A002E0E5D /* SCLAlertView.swift */; };
+		0ED2B6082360187B002E0E5D /* DesignableUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5E72360187A002E0E5D /* DesignableUITextField.swift */; };
+		0ED2B6092360187B002E0E5D /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5E82360187A002E0E5D /* Config.swift */; };
+		0ED2B60A2360187B002E0E5D /* VPMOTPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5EA2360187A002E0E5D /* VPMOTPView.swift */; };
+		0ED2B60B2360187B002E0E5D /* VPMOTPTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5EB2360187A002E0E5D /* VPMOTPTextField.swift */; };
+		0ED2B60C2360187B002E0E5D /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5EC2360187A002E0E5D /* Extension.swift */; };
+		0ED2B60D2360187B002E0E5D /* SwiftNotice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5ED2360187A002E0E5D /* SwiftNotice.swift */; };
+		0ED2B60E2360187B002E0E5D /* MyImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5EE2360187A002E0E5D /* MyImageView.swift */; };
+		0ED2B60F2360187B002E0E5D /* MIBadgeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5EF2360187A002E0E5D /* MIBadgeButton.swift */; };
+		0ED2B6102360187B002E0E5D /* ResponsiveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5F02360187A002E0E5D /* ResponsiveButton.swift */; };
+		0ED2B6112360187B002E0E5D /* MyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5F12360187A002E0E5D /* MyLabel.swift */; };
+		0ED2B6122360187B002E0E5D /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5F22360187A002E0E5D /* UIApplication.swift */; };
+		0ED2B6132360187B002E0E5D /* MyTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5F32360187A002E0E5D /* MyTextField.swift */; };
+		0ED2B6142360187B002E0E5D /* MyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5F42360187A002E0E5D /* MyButton.swift */; };
+		0ED2B6162360187B002E0E5D /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B5F72360187A002E0E5D /* BaseViewController.swift */; };
+		0ED2B61C23601CCB002E0E5D /* iPad.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B61B23601CCB002E0E5D /* iPad.xcassets */; };
+		0ED2B61F2360261E002E0E5D /* DashBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B61D2360261E002E0E5D /* DashBoard.swift */; };
+		0ED2B6202360261E002E0E5D /* DashBoard.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B61E2360261E002E0E5D /* DashBoard.xib */; };
+		0ED2B6232360339B002E0E5D /* ActiveTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B6212360339B002E0E5D /* ActiveTableCell.swift */; };
+		0ED2B6242360339B002E0E5D /* ActiveTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B6222360339B002E0E5D /* ActiveTableCell.xib */; };
+		0ED2B627236037DD002E0E5D /* PendingTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B625236037DD002E0E5D /* PendingTableCell.swift */; };
+		0ED2B628236037DD002E0E5D /* PendingTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B626236037DD002E0E5D /* PendingTableCell.xib */; };
+		0ED2B62B236058D2002E0E5D /* PaymentDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B629236058D2002E0E5D /* PaymentDetailsVC.swift */; };
+		0ED2B62C236058D2002E0E5D /* PaymentDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B62A236058D2002E0E5D /* PaymentDetailsVC.xib */; };
+		0ED2B62E23605BF8002E0E5D /* BaseBackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B62D23605BF8002E0E5D /* BaseBackViewController.swift */; };
+		0ED2B63123605DBA002E0E5D /* ConfirmYourOrderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B62F23605DBA002E0E5D /* ConfirmYourOrderVC.swift */; };
+		0ED2B63223605DBA002E0E5D /* ConfirmYourOrderVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B63023605DBA002E0E5D /* ConfirmYourOrderVC.xib */; };
+		0ED2B6352360617E002E0E5D /* ConfirmOrderTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B6332360617E002E0E5D /* ConfirmOrderTableCell.swift */; };
+		0ED2B6362360617E002E0E5D /* ConfirmOrderTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B6342360617E002E0E5D /* ConfirmOrderTableCell.xib */; };
+		0ED2B639236069CF002E0E5D /* EnterYourAddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B637236069CF002E0E5D /* EnterYourAddressVC.swift */; };
+		0ED2B63A236069CF002E0E5D /* EnterYourAddressVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B638236069CF002E0E5D /* EnterYourAddressVC.xib */; };
+		0ED2B63D236070D9002E0E5D /* PickUpTimeCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B63B236070D9002E0E5D /* PickUpTimeCollectionCell.swift */; };
+		0ED2B63E236070D9002E0E5D /* PickUpTimeCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B63C236070D9002E0E5D /* PickUpTimeCollectionCell.xib */; };
+		0ED2B64D23617596002E0E5D /* TabletDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B64B23617596002E0E5D /* TabletDetailVC.swift */; };
+		0ED2B64E23617596002E0E5D /* TabletDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B64C23617596002E0E5D /* TabletDetailVC.xib */; };
+		0ED2B65123617CE8002E0E5D /* PaymentTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B64F23617CE8002E0E5D /* PaymentTableCell.swift */; };
+		0ED2B65223617CE8002E0E5D /* PaymentTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B65023617CE8002E0E5D /* PaymentTableCell.xib */; };
+		0ED2B659236183FA002E0E5D /* SelectCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED2B657236183FA002E0E5D /* SelectCardVC.swift */; };
+		0ED2B65A236183FA002E0E5D /* SelectCardVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED2B658236183FA002E0E5D /* SelectCardVC.xib */; };
+		0ED4A5C223C74CD200EF4BB1 /* SignUp2_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4A5C023C74CD200EF4BB1 /* SignUp2_iPad.swift */; };
+		0ED4A5C323C74CD200EF4BB1 /* SignUp2_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4A5C123C74CD200EF4BB1 /* SignUp2_iPad.xib */; };
+		0ED4A5C623C750AC00EF4BB1 /* SignUp1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED4A5C423C750AC00EF4BB1 /* SignUp1VC.swift */; };
+		0ED4A5C723C750AC00EF4BB1 /* SignUp1VC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED4A5C523C750AC00EF4BB1 /* SignUp1VC.xib */; };
+		0ED572C123C5AE2100F1282A /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED572BF23C5AE2100F1282A /* ChangePasswordVC.swift */; };
+		0ED572C223C5AE2100F1282A /* ChangePasswordVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED572C023C5AE2100F1282A /* ChangePasswordVC.xib */; };
+		0ED572C523C5B1D700F1282A /* SupportVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED572C323C5B1D700F1282A /* SupportVC.swift */; };
+		0ED572C623C5B1D700F1282A /* SupportVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED572C423C5B1D700F1282A /* SupportVC.xib */; };
+		0ED572C923C5B32600F1282A /* NotificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED572C723C5B32600F1282A /* NotificationVC.swift */; };
+		0ED572CA23C5B32600F1282A /* NotificationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED572C823C5B32600F1282A /* NotificationVC.xib */; };
+		0ED572CF23C5DBE900F1282A /* AddressTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED572CD23C5DBE900F1282A /* AddressTableCell.swift */; };
+		0ED572D023C5DBE900F1282A /* AddressTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED572CE23C5DBE900F1282A /* AddressTableCell.xib */; };
+		0ED572D323C5E60D00F1282A /* PaymentInfoVC_Ipad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED572D123C5E60D00F1282A /* PaymentInfoVC_Ipad.swift */; };
+		0ED572D423C5E60D00F1282A /* PaymentInfoVC_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED572D223C5E60D00F1282A /* PaymentInfoVC_Ipad.xib */; };
+		0ED572D723C5E70200F1282A /* Confirmation_Ipad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ED572D523C5E70100F1282A /* Confirmation_Ipad.swift */; };
+		0ED572D823C5E70200F1282A /* Confirmation_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0ED572D623C5E70100F1282A /* Confirmation_Ipad.xib */; };
+		0EFDFCA22362D82E00D31F76 /* extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDFCA12362D82E00D31F76 /* extension.swift */; };
+		0EFDFCA42362D83B00D31F76 /* MyPasswordUIValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDFCA32362D83B00D31F76 /* MyPasswordUIValidation.swift */; };
+		0EFDFCA62362DAAA00D31F76 /* BlurPasswordLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EFDFCA52362DAAA00D31F76 /* BlurPasswordLoginViewController.swift */; };
+		722D2C6D248A0E2200D46B9D /* DashBoradSuppor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D2C6C248A0E2200D46B9D /* DashBoradSuppor.swift */; };
+		722D2C6F248A0EB300D46B9D /* DashBoardNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722D2C6E248A0EB300D46B9D /* DashBoardNotification.swift */; };
+		723B2B86248FAEB800871EFE /* BackBaseProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B2B83248FAEB800871EFE /* BackBaseProfile.swift */; };
+		723B2B87248FAEB800871EFE /* BackBaseSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B2B84248FAEB800871EFE /* BackBaseSupport.swift */; };
+		723B2B88248FAEB800871EFE /* BackBaseNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B2B85248FAEB800871EFE /* BackBaseNotification.swift */; };
+		723B2B96248FBA2600871EFE /* LoginNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723B2B94248FBA2600871EFE /* LoginNew.swift */; };
+		723B2B97248FBA2600871EFE /* LoginNew.xib in Resources */ = {isa = PBXBuildFile; fileRef = 723B2B95248FBA2600871EFE /* LoginNew.xib */; };
+		725DD4B62463D586006A2C7F /* SocketIoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725DD4B52463D585006A2C7F /* SocketIoManager.swift */; };
+		727A34712490BC3500BE6982 /* LoginNew_iPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 727A346F2490BC3500BE6982 /* LoginNew_iPad.swift */; };
+		727A34722490BC3500BE6982 /* LoginNew_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 727A34702490BC3500BE6982 /* LoginNew_iPad.xib */; };
+		72AE99912497877500C36925 /* MySession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE99902497877500C36925 /* MySession.swift */; };
+		8D1BA1B024EBF79F00B4610F /* Terms_ConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA1AE24EBF79F00B4610F /* Terms_ConditionsViewController.swift */; };
+		8D1BA1B124EBF79F00B4610F /* Terms_ConditionsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BA1AF24EBF79F00B4610F /* Terms_ConditionsViewController.xib */; };
+		8D1BA1B324EBF9D600B4610F /* Parsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA1B224EBF9D600B4610F /* Parsing.swift */; };
+		8D1BA1B624EBFE8200B4610F /* TermsConditionsIPADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D1BA1B424EBFE8200B4610F /* TermsConditionsIPADViewController.swift */; };
+		8D1BA1B724EBFE8200B4610F /* TermsConditionsIPADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8D1BA1B524EBFE8200B4610F /* TermsConditionsIPADViewController.xib */; };
+		8D2FC3922513482600D58B2C /* FloatLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D2FC3912513482500D58B2C /* FloatLabelTextField.swift */; };
+		8DAB051F253748AB00ED5254 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8DAB051E253748AB00ED5254 /* GoogleService-Info.plist */; };
+		8DC42B9324C189770095F776 /* EnterAddress_IpadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC42B9124C189770095F776 /* EnterAddress_IpadVC.swift */; };
+		8DC42B9424C189770095F776 /* EnterAddress_IpadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC42B9224C189770095F776 /* EnterAddress_IpadVC.xib */; };
+		8DC42B9724C18E0B0095F776 /* Address_IpadTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC42B9524C18E0B0095F776 /* Address_IpadTableCell.swift */; };
+		8DC42B9824C18E0B0095F776 /* Address_IpadTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC42B9624C18E0B0095F776 /* Address_IpadTableCell.xib */; };
+		8DC42B9B24C18E350095F776 /* PickUpTime_IpadCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC42B9924C18E350095F776 /* PickUpTime_IpadCollectionCell.swift */; };
+		8DC42B9C24C18E350095F776 /* PickUpTime_IpadCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DC42B9A24C18E350095F776 /* PickUpTime_IpadCollectionCell.xib */; };
+		8DCCD71124F8E79300F0D625 /* CheckOutPaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCD70F24F8E79300F0D625 /* CheckOutPaymentVC.swift */; };
+		8DCCD71224F8E79300F0D625 /* CheckOutPaymentVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCD71024F8E79300F0D625 /* CheckOutPaymentVC.xib */; };
+		8DCCD71524F8EAF400F0D625 /* PaymentCheckoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCD71324F8EAF400F0D625 /* PaymentCheckoutCell.swift */; };
+		8DCCD71624F8EAF400F0D625 /* PaymentCheckoutCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCD71424F8EAF400F0D625 /* PaymentCheckoutCell.xib */; };
+		8DCCD71924FA71D000F0D625 /* RefillView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCD71824FA71D000F0D625 /* RefillView.swift */; };
+		8DCCD71B24FA71EA00F0D625 /* RefillView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DCCD71A24FA71EA00F0D625 /* RefillView.xib */; };
+		8DCCD71D24FA86EA00F0D625 /* BackModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCCD71C24FA86EA00F0D625 /* BackModel.swift */; };
+		8DD4ABE624C040210019AB66 /* ResetPassword_IpadVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4ABE424C040210019AB66 /* ResetPassword_IpadVc.swift */; };
+		8DD4ABE724C040210019AB66 /* ResetPassword_IpadVc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4ABE524C040210019AB66 /* ResetPassword_IpadVc.xib */; };
+		8DD4ABEA24C064AC0019AB66 /* DasboardDetail_IpadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DD4ABE824C064AC0019AB66 /* DasboardDetail_IpadVC.swift */; };
+		8DD4ABEB24C064AC0019AB66 /* DasboardDetail_IpadVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DD4ABE924C064AC0019AB66 /* DasboardDetail_IpadVC.xib */; };
+		8DE9E12524ED3E23002BD5D2 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9E12324ED3E23002BD5D2 /* CalenderViewController.swift */; };
+		8DE9E12624ED3E23002BD5D2 /* CalenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9E12424ED3E23002BD5D2 /* CalenderViewController.xib */; };
+		8DE9E12924ED4A1F002BD5D2 /* CalenderIPADViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DE9E12724ED4A1F002BD5D2 /* CalenderIPADViewController.swift */; };
+		8DE9E12A24ED4A1F002BD5D2 /* CalenderIPADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DE9E12824ED4A1F002BD5D2 /* CalenderIPADViewController.xib */; };
+		F8150A4F878ADD84E661C99C /* Pods_medl_health.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8431A5BFF223B2FE3BD59337 /* Pods_medl_health.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		72AE398F243750470028A8F9 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C6E5C2F23F422AB005EC6BB /* DashBoard_iPad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoard_iPad.swift; sourceTree = "<group>"; };
+		0E0172C5236957A400BE41BB /* EditAccount_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccount_iPad.swift; sourceTree = "<group>"; };
+		0E0172C6236957A400BE41BB /* EditAccount_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditAccount_iPad.xib; sourceTree = "<group>"; };
+		0E0ABF6423913945004F2DC6 /* ChangePasswordVC_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC_iPad.swift; sourceTree = "<group>"; };
+		0E0ABF6523913945004F2DC6 /* ChangePasswordVC_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordVC_iPad.xib; sourceTree = "<group>"; };
+		0E184E0A2398C299009B7BEE /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		0E184E0B2398C299009B7BEE /* ForgotPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgotPasswordVC.xib; sourceTree = "<group>"; };
+		0E184E0E2398C486009B7BEE /* NewPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPasswordVC.swift; sourceTree = "<group>"; };
+		0E184E0F2398C486009B7BEE /* NewPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewPasswordVC.xib; sourceTree = "<group>"; };
+		0E184E132398C7C2009B7BEE /* MenuCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCollectionCell.swift; sourceTree = "<group>"; };
+		0E184E142398C7C2009B7BEE /* MenuCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCollectionCell.xib; sourceTree = "<group>"; };
+		0E184E172398E160009B7BEE /* InProgressTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProgressTableCell.swift; sourceTree = "<group>"; };
+		0E184E182398E160009B7BEE /* InProgressTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InProgressTableCell.xib; sourceTree = "<group>"; };
+		0E184E1B2398E1B0009B7BEE /* ExpireTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpireTableCell.swift; sourceTree = "<group>"; };
+		0E184E1C2398E1B0009B7BEE /* ExpireTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpireTableCell.xib; sourceTree = "<group>"; };
+		0E1B92E82397C32D00367CB1 /* InProcess_iPadCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InProcess_iPadCollectionCell.swift; sourceTree = "<group>"; };
+		0E1B92E92397C32D00367CB1 /* InProcess_iPadCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InProcess_iPadCollectionCell.xib; sourceTree = "<group>"; };
+		0E50887123E95952002D8C42 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		0E50887223E95952002D8C42 /* ResetPasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPasswordVC.xib; sourceTree = "<group>"; };
+		0E53750E2361C42F008ACD44 /* DashBoard_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoard_iPad.xib; sourceTree = "<group>"; };
+		0E5375112361D1EA008ACD44 /* Active_iPadCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Active_iPadCollectionCell.swift; sourceTree = "<group>"; };
+		0E5375122361D1EA008ACD44 /* Active_iPadCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Active_iPadCollectionCell.xib; sourceTree = "<group>"; };
+		0E5375152361D4BE008ACD44 /* Pending_iPadCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pending_iPadCollectionCell.swift; sourceTree = "<group>"; };
+		0E5375162361D4BE008ACD44 /* Pending_iPadCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Pending_iPadCollectionCell.xib; sourceTree = "<group>"; };
+		0E5375192361D71D008ACD44 /* ThankYou_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYou_iPad.swift; sourceTree = "<group>"; };
+		0E53751A2361D71D008ACD44 /* ThankYou_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThankYou_iPad.xib; sourceTree = "<group>"; };
+		0E53751D2361DB94008ACD44 /* EnterYourAddress_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourAddress_iPad.swift; sourceTree = "<group>"; };
+		0E53751E2361DB94008ACD44 /* EnterYourAddress_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterYourAddress_iPad.xib; sourceTree = "<group>"; };
+		0E54083823D08F870025BD84 /* DPPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPPickerManager.swift; sourceTree = "<group>"; };
+		0E6F7274236189B100CFF875 /* CardTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableCell.swift; sourceTree = "<group>"; };
+		0E6F7275236189B100CFF875 /* CardTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableCell.xib; sourceTree = "<group>"; };
+		0E6F727C2361998900CFF875 /* AddProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProfileVC.swift; sourceTree = "<group>"; };
+		0E6F727D2361998900CFF875 /* AddProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddProfileVC.xib; sourceTree = "<group>"; };
+		0E6F728C2361B4CF00CFF875 /* ThankYouVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThankYouVC.swift; sourceTree = "<group>"; };
+		0E6F728D2361B4CF00CFF875 /* ThankYouVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThankYouVC.xib; sourceTree = "<group>"; };
+		0E933814238D31A700410E92 /* SignUpVC_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC_iPad.swift; sourceTree = "<group>"; };
+		0E933815238D31A700410E92 /* SignUpVC_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC_iPad.xib; sourceTree = "<group>"; };
+		0E933818238D356600410E92 /* LostPINVC_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LostPINVC_iPad.swift; sourceTree = "<group>"; };
+		0E933819238D356600410E92 /* LostPINVC_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LostPINVC_iPad.xib; sourceTree = "<group>"; };
+		0E933820238D382F00410E92 /* EnterNewPasswordVC_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterNewPasswordVC_iPad.swift; sourceTree = "<group>"; };
+		0E933821238D382F00410E92 /* EnterNewPasswordVC_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterNewPasswordVC_iPad.xib; sourceTree = "<group>"; };
+		0E933824238D4B2800410E92 /* ExpiredCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiredCollectionCell.swift; sourceTree = "<group>"; };
+		0E933825238D4B2800410E92 /* ExpiredCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExpiredCollectionCell.xib; sourceTree = "<group>"; };
+		0E93382C238D572700410E92 /* NotificationVC_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC_iPad.swift; sourceTree = "<group>"; };
+		0E93382D238D572700410E92 /* NotificationVC_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC_iPad.xib; sourceTree = "<group>"; };
+		0E933830238D588B00410E92 /* NotificationTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationTableCell.swift; sourceTree = "<group>"; };
+		0E933831238D588B00410E92 /* NotificationTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationTableCell.xib; sourceTree = "<group>"; };
+		0E933834238D59DB00410E92 /* SupportVC_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC_iPad.swift; sourceTree = "<group>"; };
+		0E933835238D59DB00410E92 /* SupportVC_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportVC_iPad.xib; sourceTree = "<group>"; };
+		0EA185D5238FDADA00185E59 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		0EA185D6238FDADA00185E59 /* SignUpVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUpVC.xib; sourceTree = "<group>"; };
+		0EA185D9238FEA1D00185E59 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		0ED2B5BB23601591002E0E5D /* medl.health.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = medl.health.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0ED2B5BE23601591002E0E5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0ED2B5C323601591002E0E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0ED2B5C523601593002E0E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0ED2B5C823601593002E0E5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0ED2B5CA23601593002E0E5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ED2B5D22360186A002E0E5D /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		0ED2B5D32360186A002E0E5D /* LoginVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		0ED2B5D52360186A002E0E5D /* LoginVC_iPod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC_iPod.swift; sourceTree = "<group>"; };
+		0ED2B5D62360186A002E0E5D /* LoginVC_iPod.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginVC_iPod.xib; sourceTree = "<group>"; };
+		0ED2B5DC2360187A002E0E5D /* lato.medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato.medium.ttf; sourceTree = "<group>"; };
+		0ED2B5DD2360187A002E0E5D /* lato.thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato.thin.ttf; sourceTree = "<group>"; };
+		0ED2B5DE2360187A002E0E5D /* lato.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato.bold.ttf; sourceTree = "<group>"; };
+		0ED2B5DF2360187A002E0E5D /* lato.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = lato.regular.ttf; sourceTree = "<group>"; };
+		0ED2B5E22360187A002E0E5D /* HRToast+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HRToast+UIView.swift"; sourceTree = "<group>"; };
+		0ED2B5E32360187A002E0E5D /* MyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyView.swift; sourceTree = "<group>"; };
+		0ED2B5E42360187A002E0E5D /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		0ED2B5E52360187A002E0E5D /* ValidationClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationClass.swift; sourceTree = "<group>"; };
+		0ED2B5E62360187A002E0E5D /* SCLAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SCLAlertView.swift; sourceTree = "<group>"; };
+		0ED2B5E72360187A002E0E5D /* DesignableUITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableUITextField.swift; sourceTree = "<group>"; };
+		0ED2B5E82360187A002E0E5D /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		0ED2B5EA2360187A002E0E5D /* VPMOTPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPMOTPView.swift; sourceTree = "<group>"; };
+		0ED2B5EB2360187A002E0E5D /* VPMOTPTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPMOTPTextField.swift; sourceTree = "<group>"; };
+		0ED2B5EC2360187A002E0E5D /* Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		0ED2B5ED2360187A002E0E5D /* SwiftNotice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftNotice.swift; sourceTree = "<group>"; };
+		0ED2B5EE2360187A002E0E5D /* MyImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyImageView.swift; sourceTree = "<group>"; };
+		0ED2B5EF2360187A002E0E5D /* MIBadgeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MIBadgeButton.swift; sourceTree = "<group>"; };
+		0ED2B5F02360187A002E0E5D /* ResponsiveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponsiveButton.swift; sourceTree = "<group>"; };
+		0ED2B5F12360187A002E0E5D /* MyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyLabel.swift; sourceTree = "<group>"; };
+		0ED2B5F22360187A002E0E5D /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		0ED2B5F32360187A002E0E5D /* MyTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTextField.swift; sourceTree = "<group>"; };
+		0ED2B5F42360187A002E0E5D /* MyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyButton.swift; sourceTree = "<group>"; };
+		0ED2B5F72360187A002E0E5D /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0ED2B61B23601CCB002E0E5D /* iPad.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iPad.xcassets; sourceTree = "<group>"; };
+		0ED2B61D2360261E002E0E5D /* DashBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoard.swift; sourceTree = "<group>"; };
+		0ED2B61E2360261E002E0E5D /* DashBoard.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DashBoard.xib; sourceTree = "<group>"; };
+		0ED2B6212360339B002E0E5D /* ActiveTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveTableCell.swift; sourceTree = "<group>"; };
+		0ED2B6222360339B002E0E5D /* ActiveTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ActiveTableCell.xib; sourceTree = "<group>"; };
+		0ED2B625236037DD002E0E5D /* PendingTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PendingTableCell.swift; sourceTree = "<group>"; };
+		0ED2B626236037DD002E0E5D /* PendingTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PendingTableCell.xib; sourceTree = "<group>"; };
+		0ED2B629236058D2002E0E5D /* PaymentDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentDetailsVC.swift; sourceTree = "<group>"; };
+		0ED2B62A236058D2002E0E5D /* PaymentDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentDetailsVC.xib; sourceTree = "<group>"; };
+		0ED2B62D23605BF8002E0E5D /* BaseBackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseBackViewController.swift; sourceTree = "<group>"; };
+		0ED2B62F23605DBA002E0E5D /* ConfirmYourOrderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmYourOrderVC.swift; sourceTree = "<group>"; };
+		0ED2B63023605DBA002E0E5D /* ConfirmYourOrderVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmYourOrderVC.xib; sourceTree = "<group>"; };
+		0ED2B6332360617E002E0E5D /* ConfirmOrderTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrderTableCell.swift; sourceTree = "<group>"; };
+		0ED2B6342360617E002E0E5D /* ConfirmOrderTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConfirmOrderTableCell.xib; sourceTree = "<group>"; };
+		0ED2B637236069CF002E0E5D /* EnterYourAddressVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterYourAddressVC.swift; sourceTree = "<group>"; };
+		0ED2B638236069CF002E0E5D /* EnterYourAddressVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterYourAddressVC.xib; sourceTree = "<group>"; };
+		0ED2B63B236070D9002E0E5D /* PickUpTimeCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpTimeCollectionCell.swift; sourceTree = "<group>"; };
+		0ED2B63C236070D9002E0E5D /* PickUpTimeCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickUpTimeCollectionCell.xib; sourceTree = "<group>"; };
+		0ED2B64B23617596002E0E5D /* TabletDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabletDetailVC.swift; sourceTree = "<group>"; };
+		0ED2B64C23617596002E0E5D /* TabletDetailVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TabletDetailVC.xib; sourceTree = "<group>"; };
+		0ED2B64F23617CE8002E0E5D /* PaymentTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentTableCell.swift; sourceTree = "<group>"; };
+		0ED2B65023617CE8002E0E5D /* PaymentTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentTableCell.xib; sourceTree = "<group>"; };
+		0ED2B657236183FA002E0E5D /* SelectCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCardVC.swift; sourceTree = "<group>"; };
+		0ED2B658236183FA002E0E5D /* SelectCardVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectCardVC.xib; sourceTree = "<group>"; };
+		0ED4A5C023C74CD200EF4BB1 /* SignUp2_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp2_iPad.swift; sourceTree = "<group>"; };
+		0ED4A5C123C74CD200EF4BB1 /* SignUp2_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUp2_iPad.xib; sourceTree = "<group>"; };
+		0ED4A5C423C750AC00EF4BB1 /* SignUp1VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp1VC.swift; sourceTree = "<group>"; };
+		0ED4A5C523C750AC00EF4BB1 /* SignUp1VC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignUp1VC.xib; sourceTree = "<group>"; };
+		0ED572BF23C5AE2100F1282A /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		0ED572C023C5AE2100F1282A /* ChangePasswordVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ChangePasswordVC.xib; sourceTree = "<group>"; };
+		0ED572C323C5B1D700F1282A /* SupportVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportVC.swift; sourceTree = "<group>"; };
+		0ED572C423C5B1D700F1282A /* SupportVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SupportVC.xib; sourceTree = "<group>"; };
+		0ED572C723C5B32600F1282A /* NotificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationVC.swift; sourceTree = "<group>"; };
+		0ED572C823C5B32600F1282A /* NotificationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotificationVC.xib; sourceTree = "<group>"; };
+		0ED572CD23C5DBE900F1282A /* AddressTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableCell.swift; sourceTree = "<group>"; };
+		0ED572CE23C5DBE900F1282A /* AddressTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressTableCell.xib; sourceTree = "<group>"; };
+		0ED572D123C5E60D00F1282A /* PaymentInfoVC_Ipad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentInfoVC_Ipad.swift; sourceTree = "<group>"; };
+		0ED572D223C5E60D00F1282A /* PaymentInfoVC_Ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentInfoVC_Ipad.xib; sourceTree = "<group>"; };
+		0ED572D523C5E70100F1282A /* Confirmation_Ipad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Confirmation_Ipad.swift; sourceTree = "<group>"; };
+		0ED572D623C5E70100F1282A /* Confirmation_Ipad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Confirmation_Ipad.xib; sourceTree = "<group>"; };
+		0EFDFCA12362D82E00D31F76 /* extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = extension.swift; sourceTree = "<group>"; };
+		0EFDFCA32362D83B00D31F76 /* MyPasswordUIValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPasswordUIValidation.swift; sourceTree = "<group>"; };
+		0EFDFCA52362DAAA00D31F76 /* BlurPasswordLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurPasswordLoginViewController.swift; sourceTree = "<group>"; };
+		5350CCB4DDC9EB41058C8C75 /* Pods-medl.health.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medl.health.debug.xcconfig"; path = "Target Support Files/Pods-medl.health/Pods-medl.health.debug.xcconfig"; sourceTree = "<group>"; };
+		722D2C6C248A0E2200D46B9D /* DashBoradSuppor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoradSuppor.swift; sourceTree = "<group>"; };
+		722D2C6E248A0EB300D46B9D /* DashBoardNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashBoardNotification.swift; sourceTree = "<group>"; };
+		723B2B83248FAEB800871EFE /* BackBaseProfile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackBaseProfile.swift; sourceTree = "<group>"; };
+		723B2B84248FAEB800871EFE /* BackBaseSupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackBaseSupport.swift; sourceTree = "<group>"; };
+		723B2B85248FAEB800871EFE /* BackBaseNotification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackBaseNotification.swift; sourceTree = "<group>"; };
+		723B2B94248FBA2600871EFE /* LoginNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNew.swift; sourceTree = "<group>"; };
+		723B2B95248FBA2600871EFE /* LoginNew.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginNew.xib; sourceTree = "<group>"; };
+		725DD4B52463D585006A2C7F /* SocketIoManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocketIoManager.swift; sourceTree = "<group>"; };
+		727A346F2490BC3500BE6982 /* LoginNew_iPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNew_iPad.swift; sourceTree = "<group>"; };
+		727A34702490BC3500BE6982 /* LoginNew_iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginNew_iPad.xib; sourceTree = "<group>"; };
+		72AE99902497877500C36925 /* MySession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySession.swift; sourceTree = "<group>"; };
+		8431A5BFF223B2FE3BD59337 /* Pods_medl_health.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_medl_health.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1BA1AE24EBF79F00B4610F /* Terms_ConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terms_ConditionsViewController.swift; sourceTree = "<group>"; };
+		8D1BA1AF24EBF79F00B4610F /* Terms_ConditionsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Terms_ConditionsViewController.xib; sourceTree = "<group>"; };
+		8D1BA1B224EBF9D600B4610F /* Parsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parsing.swift; sourceTree = "<group>"; };
+		8D1BA1B424EBFE8200B4610F /* TermsConditionsIPADViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsIPADViewController.swift; sourceTree = "<group>"; };
+		8D1BA1B524EBFE8200B4610F /* TermsConditionsIPADViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TermsConditionsIPADViewController.xib; sourceTree = "<group>"; };
+		8D2FC3912513482500D58B2C /* FloatLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatLabelTextField.swift; sourceTree = "<group>"; };
+		8DAB051E253748AB00ED5254 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8DAB0520253778BA00ED5254 /* medl.health.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = medl.health.entitlements; sourceTree = "<group>"; };
+		8DC42B9124C189770095F776 /* EnterAddress_IpadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterAddress_IpadVC.swift; sourceTree = "<group>"; };
+		8DC42B9224C189770095F776 /* EnterAddress_IpadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EnterAddress_IpadVC.xib; sourceTree = "<group>"; };
+		8DC42B9524C18E0B0095F776 /* Address_IpadTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Address_IpadTableCell.swift; sourceTree = "<group>"; };
+		8DC42B9624C18E0B0095F776 /* Address_IpadTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Address_IpadTableCell.xib; sourceTree = "<group>"; };
+		8DC42B9924C18E350095F776 /* PickUpTime_IpadCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickUpTime_IpadCollectionCell.swift; sourceTree = "<group>"; };
+		8DC42B9A24C18E350095F776 /* PickUpTime_IpadCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PickUpTime_IpadCollectionCell.xib; sourceTree = "<group>"; };
+		8DCCD70F24F8E79300F0D625 /* CheckOutPaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutPaymentVC.swift; sourceTree = "<group>"; };
+		8DCCD71024F8E79300F0D625 /* CheckOutPaymentVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckOutPaymentVC.xib; sourceTree = "<group>"; };
+		8DCCD71324F8EAF400F0D625 /* PaymentCheckoutCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentCheckoutCell.swift; sourceTree = "<group>"; };
+		8DCCD71424F8EAF400F0D625 /* PaymentCheckoutCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PaymentCheckoutCell.xib; sourceTree = "<group>"; };
+		8DCCD71824FA71D000F0D625 /* RefillView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefillView.swift; sourceTree = "<group>"; };
+		8DCCD71A24FA71EA00F0D625 /* RefillView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RefillView.xib; sourceTree = "<group>"; };
+		8DCCD71C24FA86EA00F0D625 /* BackModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackModel.swift; sourceTree = "<group>"; };
+		8DD4ABE424C040210019AB66 /* ResetPassword_IpadVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword_IpadVc.swift; sourceTree = "<group>"; };
+		8DD4ABE524C040210019AB66 /* ResetPassword_IpadVc.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResetPassword_IpadVc.xib; sourceTree = "<group>"; };
+		8DD4ABE824C064AC0019AB66 /* DasboardDetail_IpadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DasboardDetail_IpadVC.swift; sourceTree = "<group>"; };
+		8DD4ABE924C064AC0019AB66 /* DasboardDetail_IpadVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DasboardDetail_IpadVC.xib; sourceTree = "<group>"; };
+		8DE9E12324ED3E23002BD5D2 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		8DE9E12424ED3E23002BD5D2 /* CalenderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalenderViewController.xib; sourceTree = "<group>"; };
+		8DE9E12724ED4A1F002BD5D2 /* CalenderIPADViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderIPADViewController.swift; sourceTree = "<group>"; };
+		8DE9E12824ED4A1F002BD5D2 /* CalenderIPADViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CalenderIPADViewController.xib; sourceTree = "<group>"; };
+		AB1A6710C3E4328628EA310E /* Pods-medl.health.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-medl.health.release.xcconfig"; path = "Target Support Files/Pods-medl.health/Pods-medl.health.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0ED2B5B823601591002E0E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8150A4F878ADD84E661C99C /* Pods_medl_health.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E184E122398C6AD009B7BEE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				723B2B94248FBA2600871EFE /* LoginNew.swift */,
+				723B2B95248FBA2600871EFE /* LoginNew.xib */,
+				0ED2B5D22360186A002E0E5D /* LoginVC.swift */,
+				0ED2B5D32360186A002E0E5D /* LoginVC.xib */,
+				0EA185D5238FDADA00185E59 /* SignUpVC.swift */,
+				0EA185D6238FDADA00185E59 /* SignUpVC.xib */,
+				0ED4A5C423C750AC00EF4BB1 /* SignUp1VC.swift */,
+				0ED4A5C523C750AC00EF4BB1 /* SignUp1VC.xib */,
+				0E184E0A2398C299009B7BEE /* ForgotPasswordVC.swift */,
+				0E184E0B2398C299009B7BEE /* ForgotPasswordVC.xib */,
+				0E184E0E2398C486009B7BEE /* NewPasswordVC.swift */,
+				0E184E0F2398C486009B7BEE /* NewPasswordVC.xib */,
+				0ED572C323C5B1D700F1282A /* SupportVC.swift */,
+				0ED572C423C5B1D700F1282A /* SupportVC.xib */,
+				0ED572C723C5B32600F1282A /* NotificationVC.swift */,
+				0ED572C823C5B32600F1282A /* NotificationVC.xib */,
+				0E933830238D588B00410E92 /* NotificationTableCell.swift */,
+				0E933831238D588B00410E92 /* NotificationTableCell.xib */,
+				0E50887123E95952002D8C42 /* ResetPasswordVC.swift */,
+				0E50887223E95952002D8C42 /* ResetPasswordVC.xib */,
+				8D1BA1AE24EBF79F00B4610F /* Terms_ConditionsViewController.swift */,
+				8D1BA1AF24EBF79F00B4610F /* Terms_ConditionsViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0ED2B5B223601591002E0E5D = {
+			isa = PBXGroup;
+			children = (
+				0ED2B5BD23601591002E0E5D /* Medl */,
+				0ED2B5BC23601591002E0E5D /* Products */,
+				422966B87BD89AA0A0A6ED94 /* Pods */,
+				D58191580265738D6A6DB32B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0ED2B5BC23601591002E0E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ED2B5BB23601591002E0E5D /* medl.health.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0ED2B5BD23601591002E0E5D /* Medl */ = {
+			isa = PBXGroup;
+			children = (
+				8DAB0520253778BA00ED5254 /* medl.health.entitlements */,
+				0ED2B5BE23601591002E0E5D /* AppDelegate.swift */,
+				8D2FC3902513482400D58B2C /* FloatTextField */,
+				725DD4B52463D585006A2C7F /* SocketIoManager.swift */,
+				72AE99902497877500C36925 /* MySession.swift */,
+				0ED2B5D12360186A002E0E5D /* iPhone */,
+				0ED2B5D42360186A002E0E5D /* iPod */,
+				0EFDFCA02362D81F00D31F76 /* PIN */,
+				0ED2B5C223601591002E0E5D /* Main.storyboard */,
+				0ED2B5C523601593002E0E5D /* Assets.xcassets */,
+				0ED2B61B23601CCB002E0E5D /* iPad.xcassets */,
+				0ED2B5F52360187A002E0E5D /* BaseViewController */,
+				0ED2B5DB2360187A002E0E5D /* Font */,
+				0ED2B5E02360187A002E0E5D /* HelperClasses */,
+				0ED2B5C723601593002E0E5D /* LaunchScreen.storyboard */,
+				8DAB051E253748AB00ED5254 /* GoogleService-Info.plist */,
+				0ED2B5CA23601593002E0E5D /* Info.plist */,
+				8D1BA1B224EBF9D600B4610F /* Parsing.swift */,
+			);
+			path = Medl;
+			sourceTree = "<group>";
+		};
+		0ED2B5D12360186A002E0E5D /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				0E184E122398C6AD009B7BEE /* Login */,
+				0ED572BE23C5AC1C00F1282A /* DashBoard */,
+				0ED2B637236069CF002E0E5D /* EnterYourAddressVC.swift */,
+				0ED2B638236069CF002E0E5D /* EnterYourAddressVC.xib */,
+				0ED572CD23C5DBE900F1282A /* AddressTableCell.swift */,
+				0ED572CE23C5DBE900F1282A /* AddressTableCell.xib */,
+				0ED2B63B236070D9002E0E5D /* PickUpTimeCollectionCell.swift */,
+				0ED2B63C236070D9002E0E5D /* PickUpTimeCollectionCell.xib */,
+				0ED2B629236058D2002E0E5D /* PaymentDetailsVC.swift */,
+				0ED2B62A236058D2002E0E5D /* PaymentDetailsVC.xib */,
+				0ED2B62F23605DBA002E0E5D /* ConfirmYourOrderVC.swift */,
+				0ED2B63023605DBA002E0E5D /* ConfirmYourOrderVC.xib */,
+				0ED2B6332360617E002E0E5D /* ConfirmOrderTableCell.swift */,
+				0ED2B6342360617E002E0E5D /* ConfirmOrderTableCell.xib */,
+				0ED2B657236183FA002E0E5D /* SelectCardVC.swift */,
+				0ED2B658236183FA002E0E5D /* SelectCardVC.xib */,
+				0E6F7274236189B100CFF875 /* CardTableCell.swift */,
+				0E6F7275236189B100CFF875 /* CardTableCell.xib */,
+				0E6F728C2361B4CF00CFF875 /* ThankYouVC.swift */,
+				0E6F728D2361B4CF00CFF875 /* ThankYouVC.xib */,
+				8DE9E12324ED3E23002BD5D2 /* CalenderViewController.swift */,
+				8DE9E12424ED3E23002BD5D2 /* CalenderViewController.xib */,
+				8DCCD70F24F8E79300F0D625 /* CheckOutPaymentVC.swift */,
+				8DCCD71024F8E79300F0D625 /* CheckOutPaymentVC.xib */,
+				8DCCD71324F8EAF400F0D625 /* PaymentCheckoutCell.swift */,
+				8DCCD71424F8EAF400F0D625 /* PaymentCheckoutCell.xib */,
+				8DCCD71824FA71D000F0D625 /* RefillView.swift */,
+				8DCCD71A24FA71EA00F0D625 /* RefillView.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		0ED2B5D42360186A002E0E5D /* iPod */ = {
+			isa = PBXGroup;
+			children = (
+				0ED572CB23C5BE4100F1282A /* Login */,
+				0ED572CC23C5BE5100F1282A /* DashBoard */,
+				0E93382C238D572700410E92 /* NotificationVC_iPad.swift */,
+				0E93382D238D572700410E92 /* NotificationVC_iPad.xib */,
+				0E53751D2361DB94008ACD44 /* EnterYourAddress_iPad.swift */,
+				0E53751E2361DB94008ACD44 /* EnterYourAddress_iPad.xib */,
+				0ED572D123C5E60D00F1282A /* PaymentInfoVC_Ipad.swift */,
+				0ED572D223C5E60D00F1282A /* PaymentInfoVC_Ipad.xib */,
+				0ED572D523C5E70100F1282A /* Confirmation_Ipad.swift */,
+				0ED572D623C5E70100F1282A /* Confirmation_Ipad.xib */,
+				0E933834238D59DB00410E92 /* SupportVC_iPad.swift */,
+				0E933835238D59DB00410E92 /* SupportVC_iPad.xib */,
+				0E5375192361D71D008ACD44 /* ThankYou_iPad.swift */,
+				0E53751A2361D71D008ACD44 /* ThankYou_iPad.xib */,
+				8DE9E12724ED4A1F002BD5D2 /* CalenderIPADViewController.swift */,
+				8DE9E12824ED4A1F002BD5D2 /* CalenderIPADViewController.xib */,
+			);
+			path = iPod;
+			sourceTree = "<group>";
+		};
+		0ED2B5DB2360187A002E0E5D /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				0ED2B5DC2360187A002E0E5D /* lato.medium.ttf */,
+				0ED2B5DD2360187A002E0E5D /* lato.thin.ttf */,
+				0ED2B5DE2360187A002E0E5D /* lato.bold.ttf */,
+				0ED2B5DF2360187A002E0E5D /* lato.regular.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		0ED2B5E02360187A002E0E5D /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				0E54083823D08F870025BD84 /* DPPickerManager.swift */,
+				0ED2B5E92360187A002E0E5D /* VMOTP  */,
+				0EA185D9238FEA1D00185E59 /* DataManager.swift */,
+				0ED2B5E22360187A002E0E5D /* HRToast+UIView.swift */,
+				0ED2B5E32360187A002E0E5D /* MyView.swift */,
+				0ED2B5E42360187A002E0E5D /* FloatRatingView.swift */,
+				0ED2B5E52360187A002E0E5D /* ValidationClass.swift */,
+				0ED2B5E62360187A002E0E5D /* SCLAlertView.swift */,
+				0ED2B5E72360187A002E0E5D /* DesignableUITextField.swift */,
+				0ED2B5E82360187A002E0E5D /* Config.swift */,
+				0ED2B5EC2360187A002E0E5D /* Extension.swift */,
+				0ED2B5ED2360187A002E0E5D /* SwiftNotice.swift */,
+				0ED2B5EE2360187A002E0E5D /* MyImageView.swift */,
+				0ED2B5EF2360187A002E0E5D /* MIBadgeButton.swift */,
+				0ED2B5F02360187A002E0E5D /* ResponsiveButton.swift */,
+				0ED2B5F12360187A002E0E5D /* MyLabel.swift */,
+				0ED2B5F22360187A002E0E5D /* UIApplication.swift */,
+				0ED2B5F32360187A002E0E5D /* MyTextField.swift */,
+				0ED2B5F42360187A002E0E5D /* MyButton.swift */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		0ED2B5E92360187A002E0E5D /* VMOTP  */ = {
+			isa = PBXGroup;
+			children = (
+				0ED2B5EA2360187A002E0E5D /* VPMOTPView.swift */,
+				0ED2B5EB2360187A002E0E5D /* VPMOTPTextField.swift */,
+			);
+			path = "VMOTP ";
+			sourceTree = "<group>";
+		};
+		0ED2B5F52360187A002E0E5D /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0ED2B5F72360187A002E0E5D /* BaseViewController.swift */,
+				0ED2B62D23605BF8002E0E5D /* BaseBackViewController.swift */,
+				723B2B85248FAEB800871EFE /* BackBaseNotification.swift */,
+				723B2B83248FAEB800871EFE /* BackBaseProfile.swift */,
+				723B2B84248FAEB800871EFE /* BackBaseSupport.swift */,
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		0ED572BE23C5AC1C00F1282A /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0ED2B61D2360261E002E0E5D /* DashBoard.swift */,
+				722D2C6C248A0E2200D46B9D /* DashBoradSuppor.swift */,
+				722D2C6E248A0EB300D46B9D /* DashBoardNotification.swift */,
+				0ED2B61E2360261E002E0E5D /* DashBoard.xib */,
+				0E184E132398C7C2009B7BEE /* MenuCollectionCell.swift */,
+				0E184E142398C7C2009B7BEE /* MenuCollectionCell.xib */,
+				0ED2B6212360339B002E0E5D /* ActiveTableCell.swift */,
+				0ED2B6222360339B002E0E5D /* ActiveTableCell.xib */,
+				0ED2B625236037DD002E0E5D /* PendingTableCell.swift */,
+				0ED2B626236037DD002E0E5D /* PendingTableCell.xib */,
+				0E184E172398E160009B7BEE /* InProgressTableCell.swift */,
+				0E184E182398E160009B7BEE /* InProgressTableCell.xib */,
+				0E184E1B2398E1B0009B7BEE /* ExpireTableCell.swift */,
+				0E184E1C2398E1B0009B7BEE /* ExpireTableCell.xib */,
+				0ED2B64B23617596002E0E5D /* TabletDetailVC.swift */,
+				0ED2B64C23617596002E0E5D /* TabletDetailVC.xib */,
+				8DCCD71C24FA86EA00F0D625 /* BackModel.swift */,
+				0ED2B64F23617CE8002E0E5D /* PaymentTableCell.swift */,
+				0ED2B65023617CE8002E0E5D /* PaymentTableCell.xib */,
+				0E6F727C2361998900CFF875 /* AddProfileVC.swift */,
+				0E6F727D2361998900CFF875 /* AddProfileVC.xib */,
+				0ED572BF23C5AE2100F1282A /* ChangePasswordVC.swift */,
+				0ED572C023C5AE2100F1282A /* ChangePasswordVC.xib */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		0ED572CB23C5BE4100F1282A /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				727A346F2490BC3500BE6982 /* LoginNew_iPad.swift */,
+				727A34702490BC3500BE6982 /* LoginNew_iPad.xib */,
+				0ED2B5D52360186A002E0E5D /* LoginVC_iPod.swift */,
+				0ED2B5D62360186A002E0E5D /* LoginVC_iPod.xib */,
+				0E933814238D31A700410E92 /* SignUpVC_iPad.swift */,
+				0E933815238D31A700410E92 /* SignUpVC_iPad.xib */,
+				0ED4A5C023C74CD200EF4BB1 /* SignUp2_iPad.swift */,
+				0ED4A5C123C74CD200EF4BB1 /* SignUp2_iPad.xib */,
+				0E933818238D356600410E92 /* LostPINVC_iPad.swift */,
+				0E933819238D356600410E92 /* LostPINVC_iPad.xib */,
+				0E933820238D382F00410E92 /* EnterNewPasswordVC_iPad.swift */,
+				0E933821238D382F00410E92 /* EnterNewPasswordVC_iPad.xib */,
+				8DD4ABE424C040210019AB66 /* ResetPassword_IpadVc.swift */,
+				8DD4ABE524C040210019AB66 /* ResetPassword_IpadVc.xib */,
+				8D1BA1B424EBFE8200B4610F /* TermsConditionsIPADViewController.swift */,
+				8D1BA1B524EBFE8200B4610F /* TermsConditionsIPADViewController.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		0ED572CC23C5BE5100F1282A /* DashBoard */ = {
+			isa = PBXGroup;
+			children = (
+				0C6E5C2F23F422AB005EC6BB /* DashBoard_iPad.swift */,
+				0E53750E2361C42F008ACD44 /* DashBoard_iPad.xib */,
+				0E5375112361D1EA008ACD44 /* Active_iPadCollectionCell.swift */,
+				0E5375122361D1EA008ACD44 /* Active_iPadCollectionCell.xib */,
+				0E5375152361D4BE008ACD44 /* Pending_iPadCollectionCell.swift */,
+				0E5375162361D4BE008ACD44 /* Pending_iPadCollectionCell.xib */,
+				0E1B92E82397C32D00367CB1 /* InProcess_iPadCollectionCell.swift */,
+				0E1B92E92397C32D00367CB1 /* InProcess_iPadCollectionCell.xib */,
+				0E933824238D4B2800410E92 /* ExpiredCollectionCell.swift */,
+				0E933825238D4B2800410E92 /* ExpiredCollectionCell.xib */,
+				0E0172C5236957A400BE41BB /* EditAccount_iPad.swift */,
+				0E0172C6236957A400BE41BB /* EditAccount_iPad.xib */,
+				0E0ABF6423913945004F2DC6 /* ChangePasswordVC_iPad.swift */,
+				0E0ABF6523913945004F2DC6 /* ChangePasswordVC_iPad.xib */,
+				8DD4ABE824C064AC0019AB66 /* DasboardDetail_IpadVC.swift */,
+				8DD4ABE924C064AC0019AB66 /* DasboardDetail_IpadVC.xib */,
+				8DC42B9124C189770095F776 /* EnterAddress_IpadVC.swift */,
+				8DC42B9224C189770095F776 /* EnterAddress_IpadVC.xib */,
+				8DC42B9524C18E0B0095F776 /* Address_IpadTableCell.swift */,
+				8DC42B9624C18E0B0095F776 /* Address_IpadTableCell.xib */,
+				8DC42B9924C18E350095F776 /* PickUpTime_IpadCollectionCell.swift */,
+				8DC42B9A24C18E350095F776 /* PickUpTime_IpadCollectionCell.xib */,
+			);
+			path = DashBoard;
+			sourceTree = "<group>";
+		};
+		0EFDFCA02362D81F00D31F76 /* PIN */ = {
+			isa = PBXGroup;
+			children = (
+				0EFDFCA12362D82E00D31F76 /* extension.swift */,
+				0EFDFCA32362D83B00D31F76 /* MyPasswordUIValidation.swift */,
+				0EFDFCA52362DAAA00D31F76 /* BlurPasswordLoginViewController.swift */,
+			);
+			path = PIN;
+			sourceTree = "<group>";
+		};
+		422966B87BD89AA0A0A6ED94 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5350CCB4DDC9EB41058C8C75 /* Pods-medl.health.debug.xcconfig */,
+				AB1A6710C3E4328628EA310E /* Pods-medl.health.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8D2FC3902513482400D58B2C /* FloatTextField */ = {
+			isa = PBXGroup;
+			children = (
+				8D2FC3912513482500D58B2C /* FloatLabelTextField.swift */,
+			);
+			path = FloatTextField;
+			sourceTree = "<group>";
+		};
+		D58191580265738D6A6DB32B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8431A5BFF223B2FE3BD59337 /* Pods_medl_health.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0ED2B5BA23601591002E0E5D /* medl.health */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ED2B5CD23601593002E0E5D /* Build configuration list for PBXNativeTarget "medl.health" */;
+			buildPhases = (
+				77657F8CC146ABC28A6853F2 /* [CP] Check Pods Manifest.lock */,
+				0ED2B5B723601591002E0E5D /* Sources */,
+				0ED2B5B823601591002E0E5D /* Frameworks */,
+				0ED2B5B923601591002E0E5D /* Resources */,
+				30E15BB4FB01D8116B7B6653 /* [CP] Embed Pods Frameworks */,
+				72AE398F243750470028A8F9 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = medl.health;
+			productName = Medl;
+			productReference = 0ED2B5BB23601591002E0E5D /* medl.health.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0ED2B5B323601591002E0E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "mac-15";
+				TargetAttributes = {
+					0ED2B5BA23601591002E0E5D = {
+						CreatedOnToolsVersion = 10.3;
+					};
+				};
+			};
+			buildConfigurationList = 0ED2B5B623601591002E0E5D /* Build configuration list for PBXProject "medl.health" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0ED2B5B223601591002E0E5D;
+			productRefGroup = 0ED2B5BC23601591002E0E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0ED2B5BA23601591002E0E5D /* medl.health */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0ED2B5B923601591002E0E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DE9E12624ED3E23002BD5D2 /* CalenderViewController.xib in Resources */,
+				0E5375182361D4BE008ACD44 /* Pending_iPadCollectionCell.xib in Resources */,
+				0E933837238D59DB00410E92 /* SupportVC_iPad.xib in Resources */,
+				8DC42B9824C18E0B0095F776 /* Address_IpadTableCell.xib in Resources */,
+				0ED4A5C723C750AC00EF4BB1 /* SignUp1VC.xib in Resources */,
+				0ED2B63E236070D9002E0E5D /* PickUpTimeCollectionCell.xib in Resources */,
+				0E93381B238D356600410E92 /* LostPINVC_iPad.xib in Resources */,
+				0E50887423E95952002D8C42 /* ResetPasswordVC.xib in Resources */,
+				0E6F7277236189B100CFF875 /* CardTableCell.xib in Resources */,
+				0E933823238D382F00410E92 /* EnterNewPasswordVC_iPad.xib in Resources */,
+				0ED2B628236037DD002E0E5D /* PendingTableCell.xib in Resources */,
+				0E1B92EB2397C32D00367CB1 /* InProcess_iPadCollectionCell.xib in Resources */,
+				0ED2B63A236069CF002E0E5D /* EnterYourAddressVC.xib in Resources */,
+				0E53751C2361D71D008ACD44 /* ThankYou_iPad.xib in Resources */,
+				8D1BA1B124EBF79F00B4610F /* Terms_ConditionsViewController.xib in Resources */,
+				0ED572CA23C5B32600F1282A /* NotificationVC.xib in Resources */,
+				0E184E1A2398E160009B7BEE /* InProgressTableCell.xib in Resources */,
+				8DC42B9424C189770095F776 /* EnterAddress_IpadVC.xib in Resources */,
+				0E0ABF6723913945004F2DC6 /* ChangePasswordVC_iPad.xib in Resources */,
+				8DCCD71224F8E79300F0D625 /* CheckOutPaymentVC.xib in Resources */,
+				8DCCD71624F8EAF400F0D625 /* PaymentCheckoutCell.xib in Resources */,
+				0ED2B6002360187B002E0E5D /* lato.bold.ttf in Resources */,
+				0E6F727F2361998900CFF875 /* AddProfileVC.xib in Resources */,
+				0E933817238D31A700410E92 /* SignUpVC_iPad.xib in Resources */,
+				0E184E1E2398E1B0009B7BEE /* ExpireTableCell.xib in Resources */,
+				0ED2B61C23601CCB002E0E5D /* iPad.xcassets in Resources */,
+				0ED2B6012360187B002E0E5D /* lato.regular.ttf in Resources */,
+				8D1BA1B724EBFE8200B4610F /* TermsConditionsIPADViewController.xib in Resources */,
+				0ED2B62C236058D2002E0E5D /* PaymentDetailsVC.xib in Resources */,
+				0E933827238D4B2800410E92 /* ExpiredCollectionCell.xib in Resources */,
+				0ED2B5FE2360187B002E0E5D /* lato.medium.ttf in Resources */,
+				0ED572D823C5E70200F1282A /* Confirmation_Ipad.xib in Resources */,
+				0ED572C623C5B1D700F1282A /* SupportVC.xib in Resources */,
+				723B2B97248FBA2600871EFE /* LoginNew.xib in Resources */,
+				0ED2B5C923601593002E0E5D /* LaunchScreen.storyboard in Resources */,
+				0ED2B64E23617596002E0E5D /* TabletDetailVC.xib in Resources */,
+				0E0172C8236957A400BE41BB /* EditAccount_iPad.xib in Resources */,
+				0ED572D423C5E60D00F1282A /* PaymentInfoVC_Ipad.xib in Resources */,
+				8DD4ABE724C040210019AB66 /* ResetPassword_IpadVc.xib in Resources */,
+				0ED2B63223605DBA002E0E5D /* ConfirmYourOrderVC.xib in Resources */,
+				0ED2B5C623601593002E0E5D /* Assets.xcassets in Resources */,
+				0ED2B6202360261E002E0E5D /* DashBoard.xib in Resources */,
+				8DE9E12A24ED4A1F002BD5D2 /* CalenderIPADViewController.xib in Resources */,
+				0ED2B65A236183FA002E0E5D /* SelectCardVC.xib in Resources */,
+				0EA185D8238FDADA00185E59 /* SignUpVC.xib in Resources */,
+				8DAB051F253748AB00ED5254 /* GoogleService-Info.plist in Resources */,
+				0E184E112398C486009B7BEE /* NewPasswordVC.xib in Resources */,
+				0E5375142361D1EA008ACD44 /* Active_iPadCollectionCell.xib in Resources */,
+				0ED2B5DA2360186A002E0E5D /* LoginVC_iPod.xib in Resources */,
+				8DD4ABEB24C064AC0019AB66 /* DasboardDetail_IpadVC.xib in Resources */,
+				0E5375102361C42F008ACD44 /* DashBoard_iPad.xib in Resources */,
+				0E184E0D2398C299009B7BEE /* ForgotPasswordVC.xib in Resources */,
+				727A34722490BC3500BE6982 /* LoginNew_iPad.xib in Resources */,
+				0ED2B65223617CE8002E0E5D /* PaymentTableCell.xib in Resources */,
+				0ED2B6242360339B002E0E5D /* ActiveTableCell.xib in Resources */,
+				0ED2B6362360617E002E0E5D /* ConfirmOrderTableCell.xib in Resources */,
+				0ED4A5C323C74CD200EF4BB1 /* SignUp2_iPad.xib in Resources */,
+				0ED2B5D82360186A002E0E5D /* LoginVC.xib in Resources */,
+				0ED572C223C5AE2100F1282A /* ChangePasswordVC.xib in Resources */,
+				0E93382F238D572700410E92 /* NotificationVC_iPad.xib in Resources */,
+				0ED2B5C423601591002E0E5D /* Main.storyboard in Resources */,
+				0E6F728F2361B4CF00CFF875 /* ThankYouVC.xib in Resources */,
+				0E184E162398C7C2009B7BEE /* MenuCollectionCell.xib in Resources */,
+				0E5375202361DB94008ACD44 /* EnterYourAddress_iPad.xib in Resources */,
+				8DC42B9C24C18E350095F776 /* PickUpTime_IpadCollectionCell.xib in Resources */,
+				0ED572D023C5DBE900F1282A /* AddressTableCell.xib in Resources */,
+				0ED2B5FF2360187B002E0E5D /* lato.thin.ttf in Resources */,
+				8DCCD71B24FA71EA00F0D625 /* RefillView.xib in Resources */,
+				0E933833238D588B00410E92 /* NotificationTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		30E15BB4FB01D8116B7B6653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-medl.health/Pods-medl.health-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-medl.health/Pods-medl.health-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-medl.health/Pods-medl.health-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77657F8CC146ABC28A6853F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-medl.health-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0ED2B5B723601591002E0E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722D2C6F248A0EB300D46B9D /* DashBoardNotification.swift in Sources */,
+				723B2B86248FAEB800871EFE /* BackBaseProfile.swift in Sources */,
+				0E6F727E2361998900CFF875 /* AddProfileVC.swift in Sources */,
+				0E933816238D31A700410E92 /* SignUpVC_iPad.swift in Sources */,
+				0ED2B60C2360187B002E0E5D /* Extension.swift in Sources */,
+				8D1BA1B624EBFE8200B4610F /* TermsConditionsIPADViewController.swift in Sources */,
+				0E5375132361D1EA008ACD44 /* Active_iPadCollectionCell.swift in Sources */,
+				0ED2B6042360187B002E0E5D /* MyView.swift in Sources */,
+				0E0ABF6623913945004F2DC6 /* ChangePasswordVC_iPad.swift in Sources */,
+				8DCCD71524F8EAF400F0D625 /* PaymentCheckoutCell.swift in Sources */,
+				0E933832238D588B00410E92 /* NotificationTableCell.swift in Sources */,
+				0C6E5C3023F422AB005EC6BB /* DashBoard_iPad.swift in Sources */,
+				8DE9E12924ED4A1F002BD5D2 /* CalenderIPADViewController.swift in Sources */,
+				0ED572CF23C5DBE900F1282A /* AddressTableCell.swift in Sources */,
+				0E53751F2361DB94008ACD44 /* EnterYourAddress_iPad.swift in Sources */,
+				725DD4B62463D586006A2C7F /* SocketIoManager.swift in Sources */,
+				0E53751B2361D71D008ACD44 /* ThankYou_iPad.swift in Sources */,
+				0ED2B6232360339B002E0E5D /* ActiveTableCell.swift in Sources */,
+				0E1B92EA2397C32D00367CB1 /* InProcess_iPadCollectionCell.swift in Sources */,
+				0E0172C7236957A400BE41BB /* EditAccount_iPad.swift in Sources */,
+				723B2B96248FBA2600871EFE /* LoginNew.swift in Sources */,
+				0EA185DA238FEA1E00185E59 /* DataManager.swift in Sources */,
+				0ED2B60B2360187B002E0E5D /* VPMOTPTextField.swift in Sources */,
+				0E184E0C2398C299009B7BEE /* ForgotPasswordVC.swift in Sources */,
+				0E933826238D4B2800410E92 /* ExpiredCollectionCell.swift in Sources */,
+				0ED2B60A2360187B002E0E5D /* VPMOTPView.swift in Sources */,
+				0EFDFCA62362DAAA00D31F76 /* BlurPasswordLoginViewController.swift in Sources */,
+				8DCCD71D24FA86EA00F0D625 /* BackModel.swift in Sources */,
+				0ED2B6072360187B002E0E5D /* SCLAlertView.swift in Sources */,
+				0E93381A238D356600410E92 /* LostPINVC_iPad.swift in Sources */,
+				0E184E192398E160009B7BEE /* InProgressTableCell.swift in Sources */,
+				0ED2B65123617CE8002E0E5D /* PaymentTableCell.swift in Sources */,
+				0E50887323E95952002D8C42 /* ResetPasswordVC.swift in Sources */,
+				0ED2B659236183FA002E0E5D /* SelectCardVC.swift in Sources */,
+				727A34712490BC3500BE6982 /* LoginNew_iPad.swift in Sources */,
+				0E6F728E2361B4CF00CFF875 /* ThankYouVC.swift in Sources */,
+				0ED2B6112360187B002E0E5D /* MyLabel.swift in Sources */,
+				0ED4A5C623C750AC00EF4BB1 /* SignUp1VC.swift in Sources */,
+				0E184E1D2398E1B0009B7BEE /* ExpireTableCell.swift in Sources */,
+				0EA185D7238FDADA00185E59 /* SignUpVC.swift in Sources */,
+				0ED572D323C5E60D00F1282A /* PaymentInfoVC_Ipad.swift in Sources */,
+				8DCCD71924FA71D000F0D625 /* RefillView.swift in Sources */,
+				8DCCD71124F8E79300F0D625 /* CheckOutPaymentVC.swift in Sources */,
+				72AE99912497877500C36925 /* MySession.swift in Sources */,
+				0ED2B63123605DBA002E0E5D /* ConfirmYourOrderVC.swift in Sources */,
+				0ED2B60F2360187B002E0E5D /* MIBadgeButton.swift in Sources */,
+				0ED2B64D23617596002E0E5D /* TabletDetailVC.swift in Sources */,
+				0ED2B6352360617E002E0E5D /* ConfirmOrderTableCell.swift in Sources */,
+				0ED2B6032360187B002E0E5D /* HRToast+UIView.swift in Sources */,
+				0E184E152398C7C2009B7BEE /* MenuCollectionCell.swift in Sources */,
+				0ED2B6142360187B002E0E5D /* MyButton.swift in Sources */,
+				8D2FC3922513482600D58B2C /* FloatLabelTextField.swift in Sources */,
+				0E54083923D08F870025BD84 /* DPPickerManager.swift in Sources */,
+				0ED2B60E2360187B002E0E5D /* MyImageView.swift in Sources */,
+				0ED2B6092360187B002E0E5D /* Config.swift in Sources */,
+				0ED2B5BF23601591002E0E5D /* AppDelegate.swift in Sources */,
+				0ED572C923C5B32600F1282A /* NotificationVC.swift in Sources */,
+				0ED2B6062360187B002E0E5D /* ValidationClass.swift in Sources */,
+				0ED4A5C223C74CD200EF4BB1 /* SignUp2_iPad.swift in Sources */,
+				0ED2B60D2360187B002E0E5D /* SwiftNotice.swift in Sources */,
+				0ED2B6132360187B002E0E5D /* MyTextField.swift in Sources */,
+				0ED2B62B236058D2002E0E5D /* PaymentDetailsVC.swift in Sources */,
+				0ED2B6122360187B002E0E5D /* UIApplication.swift in Sources */,
+				0E933836238D59DB00410E92 /* SupportVC_iPad.swift in Sources */,
+				8DD4ABE624C040210019AB66 /* ResetPassword_IpadVc.swift in Sources */,
+				8D1BA1B024EBF79F00B4610F /* Terms_ConditionsViewController.swift in Sources */,
+				8DE9E12524ED3E23002BD5D2 /* CalenderViewController.swift in Sources */,
+				0ED2B6082360187B002E0E5D /* DesignableUITextField.swift in Sources */,
+				0ED2B62E23605BF8002E0E5D /* BaseBackViewController.swift in Sources */,
+				0E5375172361D4BE008ACD44 /* Pending_iPadCollectionCell.swift in Sources */,
+				0E184E102398C486009B7BEE /* NewPasswordVC.swift in Sources */,
+				8DC42B9324C189770095F776 /* EnterAddress_IpadVC.swift in Sources */,
+				0ED2B61F2360261E002E0E5D /* DashBoard.swift in Sources */,
+				8DD4ABEA24C064AC0019AB66 /* DasboardDetail_IpadVC.swift in Sources */,
+				0ED572C523C5B1D700F1282A /* SupportVC.swift in Sources */,
+				723B2B87248FAEB800871EFE /* BackBaseSupport.swift in Sources */,
+				0ED2B6162360187B002E0E5D /* BaseViewController.swift in Sources */,
+				0E93382E238D572700410E92 /* NotificationVC_iPad.swift in Sources */,
+				0ED2B627236037DD002E0E5D /* PendingTableCell.swift in Sources */,
+				722D2C6D248A0E2200D46B9D /* DashBoradSuppor.swift in Sources */,
+				0ED2B63D236070D9002E0E5D /* PickUpTimeCollectionCell.swift in Sources */,
+				0EFDFCA22362D82E00D31F76 /* extension.swift in Sources */,
+				0ED2B6102360187B002E0E5D /* ResponsiveButton.swift in Sources */,
+				0ED2B5D92360186A002E0E5D /* LoginVC_iPod.swift in Sources */,
+				0ED572C123C5AE2100F1282A /* ChangePasswordVC.swift in Sources */,
+				8DC42B9B24C18E350095F776 /* PickUpTime_IpadCollectionCell.swift in Sources */,
+				723B2B88248FAEB800871EFE /* BackBaseNotification.swift in Sources */,
+				0ED2B6052360187B002E0E5D /* FloatRatingView.swift in Sources */,
+				0E933822238D382F00410E92 /* EnterNewPasswordVC_iPad.swift in Sources */,
+				8DC42B9724C18E0B0095F776 /* Address_IpadTableCell.swift in Sources */,
+				0ED572D723C5E70200F1282A /* Confirmation_Ipad.swift in Sources */,
+				0ED2B5D72360186A002E0E5D /* LoginVC.swift in Sources */,
+				8D1BA1B324EBF9D600B4610F /* Parsing.swift in Sources */,
+				0EFDFCA42362D83B00D31F76 /* MyPasswordUIValidation.swift in Sources */,
+				0ED2B639236069CF002E0E5D /* EnterYourAddressVC.swift in Sources */,
+				0E6F7276236189B100CFF875 /* CardTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0ED2B5C223601591002E0E5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ED2B5C323601591002E0E5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0ED2B5C723601593002E0E5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0ED2B5C823601593002E0E5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0ED2B5CB23601593002E0E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0ED2B5CC23601593002E0E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0ED2B5CE23601593002E0E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5350CCB4DDC9EB41058C8C75 /* Pods-medl.health.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Medl/Medl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = VHMBM22D88;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Device-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Simulator-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Sample\\ Apps/AnyPayOTASampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Sample\\ Apps/AnyPaySampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Sample\\ Apps/AnyPaySampleApp-Swift/AnyPaySampleApp-Swift",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Universal",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Device-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Simulator-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Sample\\ Apps/AnyPayOTASampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Sample\\ Apps/AnyPaySampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Sample\\ Apps/AnyPaySampleApp-Swift/AnyPaySampleApp-Swift",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Universal",
+				);
+				INFOPLIST_FILE = Medl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medl.patient;
+				PRODUCT_NAME = medl.health;
+				PROVISIONING_PROFILE_SPECIFIER = medl_pro;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0ED2B5CF23601593002E0E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB1A6710C3E4328628EA310E /* Pods-medl.health.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Medl/Medl.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0;
+				DEVELOPMENT_TEAM = VHMBM22D88;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Device-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Simulator-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Sample\\ Apps/AnyPayOTASampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Sample\\ Apps/AnyPaySampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Sample\\ Apps/AnyPaySampleApp-Swift/AnyPaySampleApp-Swift",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18/Universal",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Device-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Simulator-Only",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Sample\\ Apps/AnyPayOTASampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Sample\\ Apps/AnyPaySampleApp/AnyPaySampleApp",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Sample\\ Apps/AnyPaySampleApp-Swift/AnyPaySampleApp-Swift",
+					"$(PROJECT_DIR)/AnyPay-iOS-0.9.18(2)/Universal",
+				);
+				INFOPLIST_FILE = Medl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.medl.patient;
+				PRODUCT_NAME = medl.health;
+				PROVISIONING_PROFILE_SPECIFIER = medl_pro;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ED2B5B623601591002E0E5D /* Build configuration list for PBXProject "medl.health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED2B5CB23601593002E0E5D /* Debug */,
+				0ED2B5CC23601593002E0E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0ED2B5CD23601593002E0E5D /* Build configuration list for PBXNativeTarget "medl.health" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0ED2B5CE23601593002E0E5D /* Debug */,
+				0ED2B5CF23601593002E0E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0ED2B5B323601591002E0E5D /* Project object */;
+}

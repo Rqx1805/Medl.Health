@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ThankYou_iPad" customModule="Medl" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Thankyou_iPad" translatesAutoresizingMaskIntoConstraints="NO" id="hUy-xK-hLZ">
+                    <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thank you!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLj-tz-ILL">
+                    <rect key="frame" x="200" y="230" width="368" height="110"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="110" id="WCg-6J-a1B"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="65"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Pa-be-x0j">
+                    <rect key="frame" x="150" y="348" width="468" height="250"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="250" id="tky-OD-lIC"/>
+                    </constraints>
+                    <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.  electronic typesetting, remaining essentially . </string>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You can keep track of this order via email at patientsemail@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k1A-U5-Olr">
+                    <rect key="frame" x="150" y="606" width="468" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="PvI-SM-Xcc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Yu-Lc-62x" customClass="MyButton" customModule="Medl" customModuleProvider="target">
+                    <rect key="frame" x="250" y="736" width="268" height="50"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="50" id="0jE-gA-q8c"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                    <state key="normal" title="CLOSE (59)">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                            <real key="value" value="3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadious">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="CloseButtonAction:" destination="-1" eventType="touchUpInside" id="bTw-Qw-OIV"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="4Pa-be-x0j" secondAttribute="trailing" constant="150" id="0Q0-fk-4MI"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="hUy-xK-hLZ" secondAttribute="trailing" id="29S-Vt-AdD"/>
+                <constraint firstItem="4Pa-be-x0j" firstAttribute="top" secondItem="uLj-tz-ILL" secondAttribute="bottom" constant="8" id="9Ny-T7-w4x"/>
+                <constraint firstItem="uLj-tz-ILL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="230" id="EVq-Ja-WMA"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1Yu-Lc-62x" secondAttribute="trailing" constant="250" id="F90-4k-Rm4"/>
+                <constraint firstItem="k1A-U5-Olr" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="150" id="KcJ-Je-fjg"/>
+                <constraint firstItem="hUy-xK-hLZ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="Mi3-YD-QHo"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="k1A-U5-Olr" secondAttribute="trailing" constant="150" id="Tgv-Ia-gqR"/>
+                <constraint firstItem="4Pa-be-x0j" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="150" id="VEd-Uc-Jgo"/>
+                <constraint firstItem="hUy-xK-hLZ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="XoI-Wi-61L"/>
+                <constraint firstItem="k1A-U5-Olr" firstAttribute="top" secondItem="4Pa-be-x0j" secondAttribute="bottom" constant="8" id="g6m-Al-eOK"/>
+                <constraint firstItem="1Yu-Lc-62x" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="250" id="kAS-eW-lAJ"/>
+                <constraint firstItem="1Yu-Lc-62x" firstAttribute="top" secondItem="k1A-U5-Olr" secondAttribute="bottom" constant="70" id="mS8-Uv-B7R"/>
+                <constraint firstItem="uLj-tz-ILL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="200" id="mfC-Zt-oed"/>
+                <constraint firstItem="1Yu-Lc-62x" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ogw-No-gga"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="uLj-tz-ILL" secondAttribute="trailing" constant="200" id="qZE-Cv-1TA"/>
+                <constraint firstAttribute="bottom" secondItem="hUy-xK-hLZ" secondAttribute="bottom" id="swK-4W-0ah"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="131.25" y="153.515625"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Thankyou_iPad" width="768" height="1024"/>
+    </resources>
+</document>
